@@ -54,7 +54,7 @@ export default function QuantityField(props: FieldProps) {
       setErrorState(false);
     }
     catch (err) {
-      setHelperText(err.toString());
+      setHelperText((err as Error).toString());
       setErrorState(true);
     }
   };

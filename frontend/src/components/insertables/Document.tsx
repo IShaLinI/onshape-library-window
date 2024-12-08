@@ -15,8 +15,7 @@ import SvgFavoriteStrokeIcon from '../../icons/SvgFavoriteStrokeIcon';
 import { searchOptionsState } from "../../utils/atoms";
 import { useRecoilValue } from 'recoil';
 
-import { insertablesSearch } from '../../utils/fuzzySearch'
-
+import { insertablesSearch } from '../../utils/fuzzySearch';
 import FavoritesService from '../../utils/favorites';
 
 const useStyles = makeStyles((theme: Theme) => 
@@ -29,11 +28,10 @@ const useStyles = makeStyles((theme: Theme) =>
             width: '100%',
             paddingTop: '2px',
             paddingBottom: '2px'
-            
         },
         heading: {
             fontSize: theme.typography.pxToRem(15),
-            fontWeight: theme.typography.fontWeightRegular, 
+            fontWeight: 400
         },
     })
 );
